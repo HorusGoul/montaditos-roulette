@@ -1,0 +1,53 @@
+.slot-item {
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 64px;
+  padding: 16px;
+
+  background-color: #333;
+  color: #fff;
+
+  animation-name: slot-item-enter;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 2000ms;
+
+  opacity: 0;
+}
+
+.slot-item.slot-item--stopped {
+  animation-play-state: paused;
+}
+
+.slot-item:nth-child(1) {
+  animation-delay: 0ms;
+}
+
+.slot-item:nth-child(2) {
+  animation-delay: 666ms;
+}
+
+.slot-item:nth-child(3) {
+  animation-delay: 1333ms;
+}
+
+@keyframes slot-item-enter {
+  0%,
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  33% {
+    opacity: 1;
+  }
+
+  66% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}

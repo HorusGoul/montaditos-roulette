@@ -1,0 +1,9 @@
+.slot {
+  position: relative;
+
+  height: 64px;
+
+  display: flex;
+  justify-content: center;
+  /* overflow: hidden; */
+}
