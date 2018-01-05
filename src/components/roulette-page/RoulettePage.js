@@ -7,7 +7,7 @@ class RoulettePage extends Component {
   render() {
     return (
       <div className="roulette-page">
-        <div className="roulette-page__header">Ruleta EPICA</div>
+        <div className="roulette-page__header">Montaditos Roulette</div>
 
         <div className="roulette-page__content">
           <Roulette />

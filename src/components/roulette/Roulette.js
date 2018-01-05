@@ -31,7 +31,7 @@ class Roulette extends Component {
     const { results } = this.state;
 
     this.setState({
-      results: [...results, value]
+      results: [value, ...results]
     });
   }
 
@@ -48,11 +48,15 @@ class Roulette extends Component {
           />
         </div>
 
-        <div className="roulette__results">
-          {results.map((value, index) => (
-            <RouletteResult value={value} key={index} />
-          ))}
-        </div>
+        {results.length !== 0 && (
+          <div className="roulette__results">
+            <div className="roulette__results-title">Resultados</div>
+
+            {results.map((value, index) => (
+              <RouletteResult value={value} key={index} />
+            ))}
+          </div>
+        )}
 
         <div className="roulette__controls">
           <button className="button" onClick={this.stopSlot.bind(this)}>

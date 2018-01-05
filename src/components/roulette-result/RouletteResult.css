@@ -1,10 +1,18 @@
 .roulette-result {
-  background-color: #fff;
-  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2);
-  padding: 16px;
+  padding: 0 16px;
 
   display: flex;
   align-items: center;
+}
+
+.roulette-result__content {
+  flex: 1;
+  padding: 16px 0 16px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.roulette-result:last-child .roulette-result__content {
+  border: none;
 }
 
 .roulette-result__number {
@@ -13,10 +21,6 @@
 
   font-size: 32px;
   min-width: 2em;
-}
-
-.roulette-result__content {
-  padding-left: 16px;
 }
 
 .roulette-result__badges span {
