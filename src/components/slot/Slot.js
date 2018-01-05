@@ -80,6 +80,12 @@ class Slot extends Component {
   }
 
   run() {
+    const { running } = this.state;
+
+    if (running) {
+      return;
+    }
+
     const animeSpeed = {
       speed: MAX_SPEED
     };
@@ -89,7 +95,7 @@ class Slot extends Component {
       speed: INITIAL_SPEED,
       round: 1,
       easing: "easeOutBack",
-      duration: 7000,
+      duration: 3000,
       begin: () => {
         this.setState({
           running: true
@@ -99,6 +105,9 @@ class Slot extends Component {
       },
       update: () => {
         this.setState(animeSpeed);
+      },
+      complete: () => {
+        this.stop();
       }
     });
   }

@@ -23,6 +23,10 @@
   min-width: 2em;
 }
 
+.roulette-result__name {
+  margin: 4px;
+}
+
 .roulette-result__badges span {
   display: inline-flex;
   justify-content: center;
@@ -31,7 +35,7 @@
   font-weight: 300;
   color: #fff;
   font-size: 10pt;
-  margin: 2px 4px;
+  margin: 4px;
   padding: 4px;
   border-radius: 2px;
 }

@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import React, { Component } from "react";
 
 import "./Roulette.css";
@@ -12,7 +13,8 @@ class Roulette extends Component {
     this.slots = [];
 
     this.state = {
-      results: []
+      results: [],
+      running: true
     };
   }
 
@@ -26,18 +28,27 @@ class Roulette extends Component {
     const slot = this.slots[0];
 
     slot.run();
+
+    this.setState({
+      running: true
+    });
   }
 
   onSlotResult(value) {
     const { results } = this.state;
 
     this.setState({
-      results: [value, ...results]
+      results: [value, ...results],
+      running: false
     });
   }
 
   render() {
-    const { results } = this.state;
+    const { results, running } = this.state;
+
+    const buttonClass = classNames("button", {
+      disabled: running
+    });
 
     return (
       <div className="roulette">
@@ -62,10 +73,7 @@ class Roulette extends Component {
         )}
 
         <div className="roulette__controls">
-          <button className="button" onClick={this.stopSlot.bind(this)}>
-            Stop
-          </button>
-          <button className="button" onClick={this.runSlot.bind(this)}>
+          <button className={buttonClass} onClick={this.runSlot.bind(this)}>
             Run
           </button>
         </div>
