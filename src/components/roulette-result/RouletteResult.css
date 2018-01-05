@@ -1,0 +1,55 @@
+.roulette-result {
+  background-color: #fff;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+
+  display: flex;
+  align-items: center;
+}
+
+.roulette-result__number {
+  display: flex;
+  justify-content: center;
+
+  font-size: 32px;
+  min-width: 2em;
+}
+
+.roulette-result__content {
+  padding-left: 16px;
+}
+
+.roulette-result__badges span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #fff;
+  font-size: 10pt;
+  margin: 2px 4px;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.roulette-result__badges span.vegetarian {
+  background-image: url("./vegetarian.png");
+  width: 18px;
+  height: 14px;
+}
+
+.roulette-result__badges span.new {
+  background-color: #000;
+}
+
+.roulette-result__badges span.brioche {
+  background-color: #5bc0de;
+}
+
+.roulette-result__badges span.cereal {
+  background-color: #5bc0de;
+}
+
+.roulette-result__badges span.chapata {
+  background-color: #5bc0de;
+}

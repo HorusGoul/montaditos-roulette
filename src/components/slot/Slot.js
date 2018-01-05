@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import anime from "animejs";
 import SlotItem from "../slot-item/SlotItem";
 
 import "./Slot.css";
 
-const MAX_SLOT_VALUES = 3;
+const INITIAL_SPEED = 100;
+const MAX_SPEED = 1000;
 
 class Slot extends Component {
   constructor(props) {
@@ -11,17 +13,16 @@ class Slot extends Component {
 
     this.state = {
       slotValues: this.props.slotValues,
-      currentValues: [],
-      speed: 800,
-      running: true
+      currentValue: null,
+      speed: INITIAL_SPEED,
+      running: false
     };
 
     this.currentIndex = 0;
-    this.currentValueIndex = 0;
   }
 
   componentDidMount() {
-    this.pickNextValue.bind(this)();
+    this.run();
   }
 
   componentWillUnmount() {
@@ -29,7 +30,7 @@ class Slot extends Component {
   }
 
   pickNextValue() {
-    const { slotValues, currentValues, speed, running } = this.state;
+    const { slotValues, speed, running } = this.state;
 
     if (!running) {
       return;
@@ -41,57 +42,73 @@ class Slot extends Component {
 
     const nextValue = slotValues[this.currentIndex];
 
-    if (this.currentValueIndex === MAX_SLOT_VALUES) {
-      this.currentValueIndex = 0;
-    }
-
-    currentValues[this.currentValueIndex] = nextValue;
-
     this.setState({
-      currentValues
+      currentValue: nextValue
     });
 
     this.currentIndex++;
-    this.currentValueIndex++;
 
-    this._slotInterval = setTimeout(
-      this.pickNextValue.bind(this),
-      speed * 0.333333333333
-    );
+    this._slotInterval = setTimeout(this.pickNextValue.bind(this), speed);
   }
 
   stop() {
     const { speed } = this.state;
 
-    console.log(this.currentIndex, this.currentValueIndex);
+    const animeSpeed = {
+      speed
+    };
 
-    this.setState({
-      running: false
+    anime({
+      targets: animeSpeed,
+      speed: MAX_SPEED,
+      round: 1,
+      easing: "easeInBack",
+      duration: 3000,
+      complete: () => {
+        const { currentValue } = this.state;
+
+        this.setState({
+          running: false
+        });
+
+        this.props.onResult(currentValue);
+      },
+      update: () => {
+        this.setState(animeSpeed);
+      }
+    });
+  }
+
+  run() {
+    const animeSpeed = {
+      speed: MAX_SPEED
+    };
+
+    anime({
+      targets: animeSpeed,
+      speed: INITIAL_SPEED,
+      round: 1,
+      easing: "easeOutBack",
+      duration: 7000,
+      begin: () => {
+        this.setState({
+          running: true
+        });
+
+        this.pickNextValue.bind(this)();
+      },
+      update: () => {
+        this.setState(animeSpeed);
+      }
     });
   }
 
   render() {
-    const { currentValues, speed, running } = this.state;
+    const { currentValue } = this.state;
 
     return (
       <div className="slot">
-        <SlotItem
-          value={currentValues[0]}
-          animationDuration={speed}
-          running={running}
-        />
-        <SlotItem
-          value={currentValues[1]}
-          animationDuration={speed}
-          animationDelay={speed * 0.333333333333}
-          running={running}
-        />
-        <SlotItem
-          value={currentValues[2]}
-          animationDuration={speed}
-          animationDelay={speed * 0.666666666666}
-          running={running}
-        />
+        <SlotItem value={currentValue} />
       </div>
     );
   }

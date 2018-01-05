@@ -1,0 +1,1020 @@
+{
+  "montaditos": [
+    {
+      "name": "Jamón gran reserva con aceite de oliva virgen extra",
+      "number": 1,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Tortilla de patatas ",
+      "number": 2,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": true
+    },
+    {
+      "name": "Queso ibérico y pimiento verde",
+      "number": 3,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": true
+    },
+    {
+      "name": "Queso brie y tomate",
+      "number": 4,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": true
+    },
+    {
+      "name": "Queso de cabra y pesto",
+      "number": 5,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": true
+    },
+    {
+      "name": "Pollo kebab y pimiento verde",
+      "number": 6,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo cajún y salsa BBQ",
+      "number": 7,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo y alioli",
+      "number": 8,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Lomo al ajillo y mayonesa",
+      "number": 9,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Carrillera al vino tinto",
+      "number": 10,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Bacon ahumado, cebolla crujiente y salsa de queso cheddar",
+      "number": 11,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Chistorra y pimiento verde",
+      "number": 12,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Carne mechada deshilachada",
+      "number": 13,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Queso fresco, tomate y aceite de oliva virgen extra",
+      "number": 14,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": true
+    },
+    {
+      "name": "Crema de queso, atún y pesto",
+      "number": 15,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Atún, tomate y mayonesa ",
+      "number": 16,
+      "price": "1€",
+      "new": true,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Anchoas, tomate, pimiento verde y aceite de oliva virgen extra",
+      "number": 17,
+      "price": "1€",
+      "new": true,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Meloso de cerdo a la miel y romero",
+      "number": 18,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Calamares y mayonesa",
+      "number": 19,
+      "price": "1€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Tortilla de patatas y alioli",
+      "number": 20,
+      "price": "1,20 €",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Tortilla de patatas y salsa brava",
+      "number": 21,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": true
+    },
+    {
+      "name":
+        "Tortilla de patatas, pimiento verde y aceite de oliva virgen extra",
+      "number": 22,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": true
+    },
+    {
+      "name": "Tortilla de patatas, lechuga, tomate y mayonesa",
+      "number": 23,
+      "price": "1,20€",
+      "new": true,
+      "brioche": true,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": true
+    },
+    {
+      "name": "Tortilla de patatas, pimiento verde y mayonesa ",
+      "number": 24,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": true
+    },
+    {
+      "name": "Bacon ahumado, lechuga y tomate",
+      "number": 25,
+      "price": "1,20 €",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Bacon ahumado y lomo al ajillo",
+      "number": 26,
+      "price": "1,20 €",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Bacon ahumado y queso ibérico",
+      "number": 27,
+      "price": "1,20 €",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Queso fresco, tomate y pesto",
+      "number": 28,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": true,
+      "chapata": false,
+      "vegetarian": true
+    },
+    {
+      "name": "Queso fresco, bacon ahumado y cebolla crujiente",
+      "number": 29,
+      "price": "1,20 €",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Crema de queso, bacon ahumado y cebolla crujiente",
+      "number": 30,
+      "price": "1,20 €",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Crema de queso, atún y tomate",
+      "number": 31,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": true,
+      "vegetarian": false
+    },
+    {
+      "name": "Crema de queso, tomate, lechuga y salsa césar",
+      "number": 32,
+      "price": "1,20€",
+      "new": true,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Atún, lechuga y mayonesa",
+      "number": 33,
+      "price": "1,20 €",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Atún, lechuga y salsa césar",
+      "number": 34,
+      "price": "1,20€",
+      "new": true,
+      "brioche": true,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Atún, tomate y alioli",
+      "number": 35,
+      "price": "1,20€",
+      "new": true,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Hot dog, bacon ahumado, ketchup y mostaza",
+      "number": 36,
+      "price": "1,20 €",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Hot dog, queso ibérico, cebolla crujiente y ketchup",
+      "number": 37,
+      "price": "1,20 €",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Burger, cebolla crujiente y salsa de queso cheddar",
+      "number": 38,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": true,
+      "vegetarian": false
+    },
+    {
+      "name": "Burger, bacon ahumado, cebolla crujiente y alioli",
+      "number": 39,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": true,
+      "vegetarian": false
+    },
+    {
+      "name": "Burger, bacon ahumado, lechuga, tomate y mayonesa",
+      "number": 40,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": true,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo kebab, cebolla crujiente y salsa BBQ",
+      "number": 41,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo kebab, lechuga, tomate y salsa césar",
+      "number": 42,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo kebab, pimiento verde, bacon ahumado y mayonesa",
+      "number": 43,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo, bacon ahumado y tomate",
+      "number": 44,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo, bacon ahumado y salsa brava",
+      "number": 45,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo, pimiento verde y alioli",
+      "number": 46,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": true,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo, lechuga y salmorejo",
+      "number": 47,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": true,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo cajún, queso ibérico, bacon ahumado y salsa BBQ",
+      "number": 48,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo cajún, pimiento verde, cebolla crujiente y mayonesa",
+      "number": 49,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": true,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo cajún, bacon ahumado, tomate y mojo",
+      "number": 50,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Lomo al ajillo y crema de queso",
+      "number": 51,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Atún, lechuga y salsa césar",
+      "number": 52,
+      "price": "1,20€",
+      "new": true,
+      "brioche": true,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Lomo al ajillo, lechuga y salmorejo",
+      "number": 53,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Lomo al ajillo, tomate y mayonesa",
+      "number": 54,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": true,
+      "vegetarian": false
+    },
+    {
+      "name": "Queso ibérico, tortilla de patatas y mayonesa",
+      "number": 55,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": true
+    },
+    {
+      "name": "Queso ibérico, bacon ahumado y tomate",
+      "number": 56,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": true,
+      "vegetarian": false
+    },
+    {
+      "name": "Queso brie, bacon ahumado y pimiento verde",
+      "number": 57,
+      "price": "1,20€",
+      "new": true,
+      "brioche": true,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Queso brie, bacon ahumado y salsa de mostaza y miel",
+      "number": 58,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Queso brie, bacon ahumado y tomate",
+      "number": 59,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Queso de cabra, cebolla crujiente y salsa de mostaza y miel",
+      "number": 60,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Queso fresco, tomate y pesto",
+      "number": 61,
+      "price": "1,20€",
+      "new": false,
+      "brioche": false,
+      "cereal": true,
+      "chapata": false,
+      "vegetarian": true
+    },
+    {
+      "name": "Chistorra, bacon ahumado y salsa brava",
+      "number": 62,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Chistorra, crema de queso y cebolla crujiente",
+      "number": 63,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Meloso de cerdo a la miel y romero y salsa de queso cheddar",
+      "number": 64,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Meloso de cerdo a la miel y romero y cebolla crujiente",
+      "number": 65,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Meloso de cerdo a la miel y romero y lechuga",
+      "number": 66,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Meloso de cerdo a la miel y romero, lechuga, tomate y mayonesa",
+      "number": 67,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Carrillera al vino tinto, pimiento verde y mayonesa",
+      "number": 68,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Carrillera al vino tinto, queso brie y cebolla crujiente",
+      "number": 69,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name":
+        "Carrillera al vino tinto, queso ibérico y aceite de oliva virgen extra",
+      "number": 70,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Jamón gran reserva, tomate y aceite de oliva virgen extra",
+      "number": 71,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": true,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Jamón gran reserva y queso ibérico",
+      "number": 72,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Jamón gran reserva, tortilla de patatas y salmorejo",
+      "number": 73,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name":
+        "Carne mechada deshilachada, queso ibérico y aceite de oliva virgen extra",
+      "number": 74,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": true,
+      "vegetarian": false
+    },
+    {
+      "name":
+        "Carne mechada deshilachada, pimiento verde, patatas chips y mojo",
+      "number": 75,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": true,
+      "vegetarian": false
+    },
+    {
+      "name": "Carne mechada deshilachada, bacon ahumado y tomate",
+      "number": 76,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Salmón ahumado y crema de queso",
+      "number": 77,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Queso brie, bacon ahumado y pimiento verde",
+      "number": 78,
+      "price": "1,50€",
+      "new": true,
+      "brioche": true,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Salmón ahumado, queso brie y salsa de mostaza y miel",
+      "number": 79,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Anchoas, queso brie y tomate",
+      "number": 80,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Anchoas, queso ibérico y tomate",
+      "number": 81,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": true,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Anchoas, crema de queso y tomate",
+      "number": 82,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": true,
+      "vegetarian": false
+    },
+    {
+      "name": "Calamares y alioli",
+      "number": 83,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Calamares, pimiento verde y mayonesa",
+      "number": 84,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Calamares y salsa brava",
+      "number": 85,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Caprese: Jamón gran reserva, queso fresco, tomate y pesto",
+      "number": 86,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": true,
+      "vegetarian": false
+    },
+    {
+      "name":
+        "Cuatro quesos: Queso ibérico, queso brie, queso de cabra y crema de queso",
+      "number": 87,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": true
+    },
+    {
+      "name": "Chorizo a la parrilla",
+      "number": 88,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Crema de chocolate con cookies & cream",
+      "number": 89,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Crema de chocolate con leche condensada",
+      "number": 90,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Crema de queso dulce con cookies & cream",
+      "number": 91,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Crema de queso dulce con mermelada de fresa",
+      "number": 92,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Lingotín de chocolate blanco",
+      "number": 93,
+      "price": "1,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name":
+        "Lomo al ajillo, queso de cabra, mermelada de fresa y cebolla crujiente",
+      "number": 94,
+      "price": "2€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Lomo al ajillo, jamón gran reserva y pimiento verde",
+      "number": 95,
+      "price": "2€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo, crema de queso y salsa de mostaza y miel",
+      "number": 96,
+      "price": "2€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": true,
+      "vegetarian": false
+    },
+    {
+      "name": "Lomo al ajillo, jamón gran reserva, tomate y mayonesa",
+      "number": 97,
+      "price": "2€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo, lechuga, queso ibérico, cebolla crujiente y salsa césar",
+      "number": 98,
+      "price": "2€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Pollo, tomate, lechuga y mayonesa",
+      "number": 99,
+      "price": "2€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": true,
+      "vegetarian": false
+    },
+    {
+      "name": "Salchicha maxi, cebolla crujiente, ketchup y mayonesa",
+      "number": 100,
+      "price": "2€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    },
+    {
+      "name": "Lechuga, pollo, queso ibérico, picatostes y salsa césar",
+      "number": null,
+      "price": "3,50€",
+      "new": false,
+      "brioche": false,
+      "cereal": false,
+      "chapata": false,
+      "vegetarian": false
+    }
+  ]
+}
