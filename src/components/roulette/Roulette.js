@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import "./Roulette.css";
 import Slot from "../slot/Slot";
 import RouletteResult from "../roulette-result/RouletteResult";
+import data from "../../data.json";
 
 class Roulette extends Component {
   constructor() {
@@ -43,7 +44,9 @@ class Roulette extends Component {
         <div className="roulette__slots">
           <Slot
             ref={slot => (this.slots[0] = slot)}
-            slotValues={[1, 2, 3, 4, 5, 6, 7, 8, 9]}
+            slotValues={shuffleArray(
+              data.montaditos.map(value => value.number)
+            )}
             onResult={this.onSlotResult.bind(this)}
           />
         </div>
@@ -69,6 +72,16 @@ class Roulette extends Component {
       </div>
     );
   }
+}
+
+function shuffleArray(d) {
+  for (var c = d.length - 1; c > 0; c--) {
+    var b = Math.floor(Math.random() * (c + 1));
+    var a = d[c];
+    d[c] = d[b];
+    d[b] = a;
+  }
+  return d;
 }
 
 export default Roulette;
