@@ -41,3 +41,23 @@ body {
   background-color: #7c7c7c;
   box-shadow: none;
 }
+
+.flat-button {
+  background-color: transparent;
+  border: none;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 16px;
+}
+
+.flat-button:active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.back-icon {
+  display: block;
+  background-image: url("images/ic_arrow_back_black_24px.svg");
+  background-repeat: no-repeat;
+  opacity: 0.54;
+  width: 24px;
+  height: 24px;
+}

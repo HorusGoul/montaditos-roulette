@@ -7,7 +7,13 @@ class RoulettePage extends Component {
   render() {
     return (
       <div className="roulette-page">
-        <div className="roulette-page__header">Montaditos Roulette</div>
+        <div className="roulette-page__header">
+          <button className="flat-button">
+            <i className="back-icon" />
+          </button>
+
+          <span className="roulette-page__title">Montaditos Roulette</span>
+        </div>
 
         <div className="roulette-page__content">
           <Roulette />
