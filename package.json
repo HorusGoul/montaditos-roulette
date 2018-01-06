@@ -2,6 +2,7 @@
   "name": "montaditos-roulette",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://horusgoul.github.io/montaditos-roulette/",
   "dependencies": {
     "animejs": "^2.2.0",
     "classnames": "^2.2.5",
