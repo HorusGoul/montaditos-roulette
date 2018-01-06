@@ -4,7 +4,6 @@ import React, { Component } from "react";
 import "./Roulette.css";
 import Slot from "../slot/Slot";
 import RouletteResult from "../roulette-result/RouletteResult";
-import data from "../../data.json";
 
 class Roulette extends Component {
   constructor() {
@@ -55,9 +54,7 @@ class Roulette extends Component {
         <div className="roulette__slots">
           <Slot
             ref={slot => (this.slots[0] = slot)}
-            slotValues={shuffleArray(
-              data.montaditos.map(value => value.number)
-            )}
+            slotValues={shuffleArray(this.props.montaditos)}
             onResult={this.onSlotResult.bind(this)}
           />
         </div>

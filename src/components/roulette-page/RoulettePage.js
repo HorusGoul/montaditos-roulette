@@ -18,7 +18,7 @@ class RoulettePage extends Component {
         </div>
 
         <div className="roulette-page__content">
-          <Roulette />
+          <Roulette montaditos={this.props.montaditos} />
         </div>
       </div>
     );
