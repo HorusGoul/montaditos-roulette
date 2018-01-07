@@ -30,6 +30,13 @@ class App extends Component {
               <RoulettePage montaditos={data.categories.vegetarian} />
             )}
           />
+          <Route
+            exact
+            path="/sweet"
+            render={() => (
+              <RoulettePage montaditos={data.categories.sweet} />
+            )}
+          />
         </Switch>
       </Router>
     );

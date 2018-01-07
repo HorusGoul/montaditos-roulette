@@ -67,6 +67,10 @@
   background-image: url("../../images/entry-vegetarian.jpg");
 }
 
+.menu-entry.csweet {
+  background-image: url("../../images/entry-sweet.jpg");
+}
+
 .menu-entry__title {
   margin-top: auto;
   display: block;

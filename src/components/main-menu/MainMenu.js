@@ -23,6 +23,12 @@ class MainMenu extends Component {
               <span className="menu-entry__title">Vegetarianos</span>
             </div>
           </Link>
+
+          <Link to="/sweet">
+            <div className="menu-entry csweet">
+              <span className="menu-entry__title">Dulces</span>
+            </div>
+          </Link>
         </div>
       </div>
     );
